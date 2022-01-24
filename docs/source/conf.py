@@ -33,3 +33,6 @@ html_theme = 'sphinx_rtd_theme'
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
+
+# Set up intersphinx maps
+intersphinx_mapping = {'numpy': ('https://numpy.org/doc/stable', None)}
